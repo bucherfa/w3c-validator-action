@@ -1,6 +1,8 @@
 name: w3c-validator
-on: [push, pull_request]
-
+on:
+  push:
+    branches: [ master, develop ]
+  pull_request:
 jobs:
   w3c-validator:
     name: Validates HTML files
