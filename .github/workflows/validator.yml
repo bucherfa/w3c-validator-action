@@ -1,0 +1,12 @@
+name: w3c-validator
+on: [push, pull_request]
+
+jobs:
+  w3c-validator:
+    name: Validates HTML files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run Validator
+        run: ./main.sh
