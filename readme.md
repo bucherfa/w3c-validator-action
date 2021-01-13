@@ -20,5 +20,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Run Validator
-        uses: bucherfa/w3c-validator-action@v0.1
+        uses: bucherfa/w3c-validator-action@v0.2
 ```
