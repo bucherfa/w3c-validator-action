@@ -11,4 +11,4 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Run Validator
-        run: ./main.sh
+        uses: bucherfa/w3c-validator-action@0.0
