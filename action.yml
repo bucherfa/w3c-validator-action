@@ -14,3 +14,6 @@ runs:
   steps:
     - run: ${{ github.action_path }}/main.sh
       shell: bash
+branding:
+  icon: 'check-square'
+  color: 'blue'
