@@ -1,3 +1,7 @@
+Exactly what I needed already exists: https://github.com/Cyb3r-Jak3/html5validator-action
+
+It even uses a validator from w3c just under an obfuscated name.
+
 # W3C Validator Action
 
 > Validate all HTML files inside a repository against the W3C validator
